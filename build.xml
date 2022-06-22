@@ -75,8 +75,8 @@
     		<include name="*.jar"/>
     	</fileset>
     	
-    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib" />
-    	<fileset dir="/usr/local/lib/apache-tomcat-9.0.64/lib/">
+    	<pathelement location=" usr/local/lib/apache-tomcat-9.0.64/lib" />
+    	<fileset dir=" usr/local/lib/apache-tomcat-9.0.64/lib">
     	    <include name="*.jar"/>		
     	</fileset>
     	
@@ -119,6 +119,7 @@
     <target name="build" depends="prepare" description="compile java">
     	<javac srcdir="${src.dir}"
     			destdir="${build.dir}/WEB-INF/classes"
+    			debug="${compile.debug}"
     			description="${compile.deprecation}"
     			optimize="${compile.optimize}"
     			classpathref="bom365.classpath">
