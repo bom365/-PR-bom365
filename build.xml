@@ -101,9 +101,8 @@
 		<tstamp>
 			<format property="DSTAMP" pattern="yyyy-mm-dd"/>
 			<format property="TSTAMP" pattern="HH:mm:ss"/>
-			
-			<echo message="Build tart at ${DSTAMPDSTAMP} - ${TSTAMP}"/>
 		</tstamp>
+		<echo message="Build tart at ${DSTAMPDSTAMP} - ${TSTAMP}"/>
 	</target>
 	
 	<target name="prepare" depends="datentime, clean" description="copy web contents">
