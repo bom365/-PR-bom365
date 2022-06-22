@@ -121,7 +121,7 @@
     			destdir="${build.dir}/WEB-INF/classes"
     			description="${compile.deprecation}"
     			optimize="${compile.optimize}"
-    			classpathref="project.classpath"
+    			classpathref="bom365.classpath"
     		>
     	</javac>
     	<copy todir="${build.dir}/WEB-INF/classes">
