@@ -119,7 +119,7 @@
     <target name="build" depends="prepare" description="compile java">
     	<javac srcdir="${src.dir}"
     			destdir="${build.dir}/WEB-INF/classes"
-    			description="${compile.deprecation"
+    			description="${compile.deprecation}"
     			optimize="${compile.optimize}"
     			classpathref="project.classpath"
     		>
