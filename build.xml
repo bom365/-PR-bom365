@@ -75,8 +75,8 @@
     		<include name="*.jar"/>
     	</fileset>
     	
-    	<pathelement location=" usr/local/lib/apache-tomcat-9.0.64/lib" />
-    	<fileset dir=" usr/local/lib/apache-tomcat-9.0.64/lib">
+    	<pathelement location=" ${tomcat.home}/lib" />
+    	<fileset dir=" ${tomcat.home}/lib">
     	    <include name="*.jar"/>		
     	</fileset>
     	
