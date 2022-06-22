@@ -29,7 +29,7 @@
 	<property name="dist.dir" value="dist" />
 	<property name="build.dir" value="build" />
 	<property name="war.file" value="${dist.dir}/${project.name}.war" />
-	<property name="tomcat" value="/usr/local/lib/apache-tomcat-9.0.64/" />
+	<property name="tomcat" value="usr/local/lib/apache-tomcat-9.0.64/" />
 
 	
 	
