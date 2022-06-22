@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="bom365" default="all">
+    <!-- Import file -->    
+  <property file="build.properties"/>
+  <property name="java.src.dir" value="src/main/java" />
+
+  <property name="java.test.dir" value="src/test/java" />
+
+  <property name="java.test.lib" value="src/test/lib" />
+
+  <property name="java.res.dir" value="src/main/resource" />
+
+  <property name="web.dir" value="WebContent" />
+
+
+  <property name="build.dir" value="${web.dir}/WEB-INF/classes" />
+  <path id="dev.classpath">
+      <fileset dir="${web.dir}/WEB-INF/lib">
+        <include name="*.jar" />
+      </fileset>
+      <fileset dir="${was.dir}/lib">
+        <include name="*.jar" />
+      </fileset>
+      <pathelement path="${build.dir}" />
+  </path>
+  <!-- Target Define -->
+  <target name="usage" description="Ant Build Usage">
+      <echo message="" />
+      <echo message="${name} build file" />
+      <echo message="-----------------------------------" />
+      <echo message="" />
+      <echo message="Available targets are:" />
+      <echo message="Compile" />
+      <echo message="compile.java               --> Compile Java Files" />
+      <echo message="dev.deploy                 --> Deploy to Development Machine" />
+      <echo message="" />
+      <echo message="appserver.deploy           --> Deploy to Operational Machine" />
+      <echo message="" />
+      <echo message="clean                      --> Clean Output Folder" />
+      <echo message="" />
+  </target>
+  <target name="init">
+    <echo message="Init Ant" /> 
+  </target>
+  
+</project>
