@@ -40,10 +40,49 @@
     		<include name="*.jar"/>
     	</fileset>
     	
-    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib" />
-    	<fileset dir="/usr/local/lib/apache-tomcat-9.0.64/lib">
-    	    <include name="*.jar"/>		
-    	</fileset>
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/annotations-api.jar"/>
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/ecj-4.20.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-api.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-i18n-ja.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-util-scan.jar"/>	
+    	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/catalina-ant.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/el-api.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-coyote.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-i18n-ko.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-util.jar"/>	
+    	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/catalina-ha.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/jasper-el.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-dbcp.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-i18n-pt-BR.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-websocket.jar"/>	
+    	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/catalina-ssi.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/jasper.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-i18n-cs.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-i18n-ru.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/websocket-api.jar"/>	
+
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/catalina-storeconfig.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/jaspic-api.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-i18n-de.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-i18n-zh-CN.jar"/>	
+    	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/catalina-tribes.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/jsp-api.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-i18n-es.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-jdbc.jar"/>	
+    	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/catalina.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/servlet-api.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-i18n-fr.jar"/>	
+    	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib/tomcat-jni.jar"/>	
+    	
+    	
+    	       
+    	               
+    	                  
     	
     </path>
 	
