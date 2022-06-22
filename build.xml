@@ -76,7 +76,7 @@
     	</fileset>
     	
     	<pathelement location="/usr/local/lib/apache-tomcat-9.0.64/lib" />
-    	<fileset dir="/usr/local/lib/apache-tomcat-9.0.64/lib">
+    	<fileset dir="/usr/local/lib/apache-tomcat-9.0.64/lib/">
     	    <include name="*.jar"/>		
     	</fileset>
     	
@@ -121,8 +121,7 @@
     			destdir="${build.dir}/WEB-INF/classes"
     			description="${compile.deprecation}"
     			optimize="${compile.optimize}"
-    			classpathref="bom365.classpath"
-    		>
+    			classpathref="bom365.classpath">
     	</javac>
     	<copy todir="${build.dir}/WEB-INF/classes">
     		<fileset dir="${src.dir}" excludes="**/*.java, **/*.properties"/>
